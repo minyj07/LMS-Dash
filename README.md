@@ -16,7 +16,8 @@
 | --- | --- | --- |
 | Windows | `LMSDash-Setup-<버전>.exe` | 설치판 (권장). 알림·자동 실행·자동 업데이트가 가장 잘 동작 |
 | Windows | `LMSDash-<버전>-portable.exe` | 설치 없이 바로 실행 |
-| macOS | `LMSDash-<버전>-mac.dmg` | Apple Silicon·Intel 공용 |
+| macOS (Apple 칩) | `LMSDash-<버전>-mac-arm64.dmg` | Apple 메뉴 → 이 Mac에 관하여에 "칩: Apple M…" 이라고 나오는 맥 (2020년 말 이후 대부분) |
+| macOS (Intel) | `LMSDash-<버전>-mac-x64.dmg` | "프로세서: Intel …" 이라고 나오는 맥 (Apple 칩 맥에서도 실행은 됨) |
 | Android | `LMSDash-<버전>.apk` | `android-v` 로 시작하는 릴리스(모바일)에 있습니다 |
 | iPhone | `LMSDash-<버전>-iphone-unsigned.ipa` | 모바일 릴리스에 있습니다. 아래 설치 방법을 보세요 |
 
@@ -39,16 +40,18 @@
 - **대시보드**: 24시간 내 마감, 이번 주 마감, 봐야 할 동영상, 미제출 과제를 한눈에
 - **할 일**: 오늘 / 내일 / 이번 주 / 다음 주로 묶은 목록, 필터와 검색, 지각 제출 가능 항목 표시
 - **동영상 출석 현황**: 출석 인정 기간, 진도율, 출석/지각/결석 상태. 아직 열리지 않은 주차는 "○월 ○일 열림"으로 표시
+- **과목 메뉴를 앱 화면으로**: 공지·과제·시험·수업 계획서·토론·성적·파일·주차 학습·출결·강의자료실을 LMS 웹 화면 없이 바로
 - **공지사항을 앱 안에서 읽기** (LMS 에도 읽음 표시), 첨부파일 받기
-- **강의자료 모아보기**와 받기 (Windows 는 "모두 다운받기")
+- **강의자료 모아보기**와 받기 — 자료 이름 그대로 과목별 폴더에 저장, "모두 받기"
 - **마감 알림**: 아직 안 한 항목의 마감 하루 전·3시간 전 (시간 선택 가능)
 - 동영상 시청·과제 제출은 앱 안의 LMS 화면에서 로그인된 상태로 (출석 정상 기록)
 - 주간 캘린더, 과목별 화면, 완료 표시·숨기기, 라이트/다크 테마
 
 <p>
 <img src="screenshots/mobile-todo.png" width="200" alt="Android 할 일">
-<img src="screenshots/mobile-notices.png" width="200" alt="Android 공지">
+<img src="screenshots/mobile-course.png" width="200" alt="Android 과목 메뉴">
 <img src="screenshots/mobile-resources.png" width="200" alt="Android 강의자료">
+<img src="screenshots/mobile-notices.png" width="200" alt="Android 공지">
 </p>
 
 ## 개인정보
